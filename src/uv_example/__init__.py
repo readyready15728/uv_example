@@ -1,2 +1,4 @@
+import importlib
+
 def main() -> None:
-    print("Hello from uv-example!")
+    importlib.import_module('foo.bar').main()
